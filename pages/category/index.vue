@@ -1,14 +1,14 @@
 <template>
-  <Top />
+  <div>
+    <h1>Category</h1>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api';
-import Top from "@/components/Top/Top.vue";
 
 export default defineComponent({
   components: {
-    Top,
   },
 });
 </script>
